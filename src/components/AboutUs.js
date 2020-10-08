@@ -7,7 +7,7 @@ import img3 from '../assets/images/img3.jpeg';
 
 const About = () => {
   return (
-    <div className=' container text-center mt-5'>
+    <div className=' container text-center mt-5 text-dark'>
       <h1>About US</h1>
       <br />
       <section>

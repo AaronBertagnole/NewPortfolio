@@ -6,8 +6,8 @@ import './style.css';
 export default class Navbar extends Component {
   render() {
     return (
-      <nav className='navbar navbar-expand-lg navbar-light bg-light'>
-        <a className='navbar-brand' href='/'>
+      <nav className='navbar navbar-expand-lg navbar-light bg-dark'>
+        <a className='navbar-brand text-light' href='/'>
           Vagabond Vans
         </a>
         <button
@@ -23,17 +23,17 @@ export default class Navbar extends Component {
         <div className='collapse navbar-collapse' id='navbarNav'>
           <ul className='navbar-nav'>
             <li className='nav-item '>
-              <a className='nav-link' href='/'>
+              <a className='nav-link text-light' href='/'>
                 Home
               </a>
             </li>
-            <li className='nav-item'>
-              <a className='nav-link' href='/about'>
+            <li className='nav-item '>
+              <a className='nav-link text-light' href='/about'>
                 About Us
               </a>
             </li>
             <li className='nav-item'>
-              <a className='nav-link' href='/contactUs'>
+              <a className='nav-link text-light' href='/contactUs'>
                 Contact Us
               </a>
             </li>
