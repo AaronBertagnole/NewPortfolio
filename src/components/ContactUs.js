@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { Form, Button, Card } from 'react-bootstrap';
+import Footer from './Footer';
 
 const ContactForm = () => {
   const [state, setState] = useState({
@@ -98,6 +99,7 @@ const ContactForm = () => {
           </Button>
         </Card>
       </form>
+      <Footer />
     </div>
   );
 };

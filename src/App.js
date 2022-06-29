@@ -4,7 +4,6 @@ import Home from './components/Home';
 import AboutUs from './components/AboutUs';
 import ContactUs from './components/ContactUs';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import Footer from './components/Footer';
 import video from '../src/assets/video/Blurry_Trees_Seamless_Loop_02_Videvo.mov';
 
 class App extends Component {
@@ -25,13 +24,11 @@ class App extends Component {
       <source src={video} type='video/mp4'/>
     </video>
         <div >
-         
           <Navbar />
           <Switch>
             <Route path='/' component={Home} exact />
             <Route path='/about' component={AboutUs} />
             <Route path='/contactus' component={ContactUs} />
-
           </Switch>
         </div>
       </BrowserRouter>

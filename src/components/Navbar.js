@@ -1,5 +1,6 @@
 // eslint-disable-next-line
 import React, { Component } from 'react';
+import Footer from './Footer';
 import './style.css';
 
 
@@ -8,7 +9,7 @@ export default class Navbar extends Component {
     return (
       <nav className='navbar navbar-expand-lg navbar-light bg-dark'>
         <a className='navbar-brand text-light' href='/'>
-          Vagabond Vans
+          Aaron Bertagnole Portfolio
         </a>
         <button
           className='navbar-toggler'
@@ -29,12 +30,12 @@ export default class Navbar extends Component {
             </li>
             <li className='nav-item '>
               <a className='nav-link text-light' href='/about'>
-                About Us
+                About Me
               </a>
             </li>
             <li className='nav-item'>
               <a className='nav-link text-light' href='/contactUs'>
-                Contact Us
+                Contact Me
               </a>
             </li>
           </ul>
